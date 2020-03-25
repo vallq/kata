@@ -2,7 +2,7 @@ function deleteDuplicates(elementsArray) {
   if (elementsArray.length === 0) {
     return "Array is empty";
   } else if (elementsArray.length === 1) {
-    return elementsArray;
+    return 1;
   } else {
     let currIndex = 0;
     let nextIndex = 1;
@@ -18,10 +18,12 @@ function deleteDuplicates(elementsArray) {
       }
     }
 
+    const numOfValidElements = elementsArray.length;
+
     for (let i = 0; i < counter; i++) {
       elementsArray.push(0);
     }
-    return elementsArray;
+    return numOfValidElements;
   }
 }
 

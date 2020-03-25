@@ -18,12 +18,10 @@ function deleteDuplicates(elementsArray) {
       }
     }
 
-    const numOfValidElements = elementsArray.length;
-
     for (let i = 0; i < counter; i++) {
       elementsArray.push(0);
     }
-    return numOfValidElements;
+    return elementsArray;
   }
 }
 

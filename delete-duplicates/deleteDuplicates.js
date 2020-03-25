@@ -1,4 +1,4 @@
-const deleteDuplicates = elementsArray => {
+function deleteDuplicates(elementsArray) {
   if (elementsArray.length === 0) {
     return "Array is empty";
   } else if (elementsArray.length === 1) {
@@ -8,8 +8,8 @@ const deleteDuplicates = elementsArray => {
     let nextIndex = 1;
     let counter = 0;
 
-    while(currIndex < elementsArray.length) {
-      if(elementsArray[currIndex] === elementsArray[nextIndex]) {
+    while (currIndex < elementsArray.length) {
+      if (elementsArray[currIndex] === elementsArray[nextIndex]) {
         elementsArray.splice(nextIndex, 1);
         counter++;
       } else {
@@ -17,12 +17,12 @@ const deleteDuplicates = elementsArray => {
         nextIndex++;
       }
     }
-    
-    for(let i = 0; i < counter; i++) {
+
+    for (let i = 0; i < counter; i++) {
       elementsArray.push(0);
     }
     return elementsArray;
   }
-};
+}
 
 module.exports = deleteDuplicates;

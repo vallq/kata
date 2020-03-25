@@ -1,0 +1,15 @@
+{
+  "name": "banking-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BankAccount.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
+}

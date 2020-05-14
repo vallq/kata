@@ -1,0 +1,15 @@
+{
+  "name": "email-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emailTemplate.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Valerie Lui @vallq",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
